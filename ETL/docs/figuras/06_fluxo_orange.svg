@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 350" width="780" height="350" role="img" aria-labelledby="t d" font-family="'Noto Sans','DejaVu Sans',system-ui,sans-serif">
+<title id="t">Fluxo do Orange</title><desc id="d">File, Data Sampler com partição 70/30 estratificada, três modelos ligados ao Test &amp; Score, Confusion Matrix e ROC Analysis.</desc>
+<defs><marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="780" height="350" fill="#fcfcfb"/>
+<text x="20" y="24" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">O fluxo do Orange (idêntico nas duas versões; muda só o arquivo de entrada)</text>
+<rect x="370" y="44" width="124" height="38" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="370" y="44" width="7" height="38" rx="3" fill="#1baf7a"/>
+<text x="387" y="64" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">Naive Bayes</text>
+<line x1="432.0" y1="84" x2="520" y2="138" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<rect x="504" y="44" width="152" height="38" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="504" y="44" width="7" height="38" rx="3" fill="#1baf7a"/>
+<text x="521" y="64" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">Logistic Regression</text>
+<line x1="580.0" y1="84" x2="575" y2="138" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<rect x="666" y="44" width="100" height="38" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="666" y="44" width="7" height="38" rx="3" fill="#1baf7a"/>
+<text x="683" y="64" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">Tree</text>
+<line x1="716.0" y1="84" x2="630" y2="138" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<rect x="10" y="150" width="132" height="52" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="10" y="150" width="7" height="52" rx="3" fill="#898781"/>
+<text x="27" y="170" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">File</text>
+<text x="27" y="186" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">abt_recompra_*.csv</text>
+<line x1="144" y1="176" x2="168" y2="176" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<rect x="170" y="126" width="190" height="100" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="170" y="126" width="7" height="100" rx="3" fill="#1baf7a"/>
+<text x="187" y="146" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Data Sampler</text>
+<text x="187" y="162" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">70% treino · 30% teste</text>
+<text x="187" y="178" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">estratificado</text>
+<text x="187" y="194" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">semente fixa, sem reposição</text>
+<line x1="362" y1="158" x2="468" y2="158" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<text x="366" y="150" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">treino: 76.650</text>
+<text x="366" y="174" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">(16.830 positivos)</text>
+<line x1="362" y1="206" x2="468" y2="206" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<text x="366" y="198" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">teste: 32.849</text>
+<text x="366" y="222" font-size="11" fill="#52514e" text-anchor="start" font-weight="400">(7.212 positivos)</text>
+<rect x="470" y="138" width="210" height="84" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="470" y="138" width="7" height="84" rx="3" fill="#1baf7a"/>
+<text x="487" y="158" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Test &amp; Score</text>
+<text x="487" y="174" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">avalia no conjunto de teste</text>
+<text x="487" y="190" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">classe-alvo 1 · parâmetros padrão</text>
+<line x1="530" y1="224" x2="530" y2="268" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<line x1="620" y1="224" x2="660" y2="268" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<rect x="450" y="270" width="150" height="40" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="450" y="270" width="7" height="40" rx="3" fill="#1baf7a"/>
+<text x="467" y="290" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">Confusion Matrix</text>
+<rect x="620" y="270" width="140" height="40" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="620" y="270" width="7" height="40" rx="3" fill="#1baf7a"/>
+<text x="637" y="290" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">ROC Analysis</text>
+<text x="20" y="336" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Métricas lidas: AUC, acurácia, recall e especificidade; acurácia balanceada = (recall + especificidade) / 2.</text>
+</svg>

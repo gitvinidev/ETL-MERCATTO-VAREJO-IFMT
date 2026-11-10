@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 740" width="780" height="740" role="img" aria-labelledby="t d" font-family="'Noto Sans','DejaVu Sans',system-ui,sans-serif">
+<title id="t">Visão geral do projeto</title><desc id="d">Fluxo das quatro fontes até o resultado do experimento: stg, cnf, dw, ABT correta e com vazamento, Orange e Python.</desc>
+<defs><marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="780" height="740" fill="#fcfcfb"/>
+<rect x="20" y="10" width="740" height="42" rx="6" fill="#f1f0ed" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="10" width="7" height="42" rx="3" fill="#898781"/>
+<text x="37" y="29" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Semana 1 · Diagnóstico (scripts d01 a d06)</text>
+<text x="37" y="45" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">mede as quatro fontes sem alterá-las: chaves, significado dos campos, valores, anomalias e grão</text>
+<rect x="20" y="68" width="180" height="54" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="68" width="7" height="54" rx="3" fill="#898781"/>
+<text x="37" y="88" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">ERP legado (MySQL)</text>
+<text x="37" y="104" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">577.336 registros</text>
+<rect x="210" y="68" width="180" height="54" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="210" y="68" width="7" height="54" rx="3" fill="#898781"/>
+<text x="227" y="88" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">E-commerce (PostgreSQL)</text>
+<text x="227" y="104" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">1.372.388 registros</text>
+<rect x="400" y="68" width="180" height="54" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="400" y="68" width="7" height="54" rx="3" fill="#898781"/>
+<text x="417" y="88" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">SAC (CSV)</text>
+<text x="417" y="104" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">96.140 atendimentos</text>
+<rect x="590" y="68" width="180" height="54" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="590" y="68" width="7" height="54" rx="3" fill="#898781"/>
+<text x="607" y="88" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Avaliações (NDJSON)</text>
+<text x="607" y="104" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">160.000 avaliações</text>
+<line x1="390" y1="126" x2="390" y2="162" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<text x="402" y="148" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">01_extracao.py · cópia fiel, sem transformar</text>
+<rect x="20" y="166" width="740" height="50" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="166" width="7" height="50" rx="3" fill="#2a78d6"/>
+<text x="37" y="186" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">stg · cópia fiel das origens</text>
+<text x="37" y="202" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">2.205.864 registros, 11 tabelas conferidas contra as origens</text>
+<line x1="390" y1="220" x2="390" y2="254" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<text x="402" y="242" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">02_transformacao.py · decisões RDT-01 a RDT-09</text>
+<rect x="20" y="258" width="740" height="50" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="258" width="7" height="50" rx="3" fill="#2a78d6"/>
+<text x="37" y="278" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">cnf · camada conformada</text>
+<text x="37" y="294" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">117.396 pessoas a partir de 132.250 cadastros; status, valores, ausências e fuso padronizados</text>
+<line x1="390" y1="312" x2="390" y2="346" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<text x="402" y="334" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">03_carga_dw.py · reconciliação financeira com diferença zero</text>
+<rect x="20" y="350" width="740" height="50" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="350" width="7" height="50" rx="3" fill="#eb6834"/>
+<text x="37" y="370" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">dw · esquema estrela</text>
+<text x="37" y="386" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">410.000 pedidos e 1.371.876 itens; 20.577 itens sem pedido em quarentena</text>
+<line x1="205" y1="404" x2="205" y2="440" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<text x="217" y="427" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">04_abt.py --correta</text>
+<line x1="575" y1="404" x2="575" y2="440" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<text x="587" y="427" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">04_abt.py --vazamento</text>
+<rect x="20" y="444" width="360" height="62" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="444" width="7" height="62" rx="3" fill="#eb6834"/>
+<text x="37" y="464" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">ABT correta (só dados até o corte)</text>
+<text x="37" y="480" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">109.499 clientes</text>
+<text x="37" y="496" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">21,96% recompram</text>
+<rect x="400" y="444" width="360" height="62" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="400" y="444" width="7" height="62" rx="3" fill="#1baf7a"/>
+<text x="417" y="464" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">ABT com vazamento (de propósito)</text>
+<text x="417" y="480" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">recência e frequência usam também o futuro</text>
+<text x="417" y="496" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">z-score antes da partição</text>
+<line x1="390" y1="510" x2="390" y2="544" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<text x="402" y="532" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">05_exportar_orange.py</text>
+<rect x="20" y="548" width="360" height="50" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="548" width="7" height="50" rx="3" fill="#1baf7a"/>
+<text x="37" y="568" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Orange 3.40.0</text>
+<text x="37" y="584" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">3 modelos, partição 70/30, mesmo fluxo nas duas ABT</text>
+<rect x="400" y="548" width="360" height="50" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="400" y="548" width="7" height="50" rx="3" fill="#1baf7a"/>
+<text x="417" y="568" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Python (scikit-learn)</text>
+<text x="417" y="584" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">mesmo experimento, na partição do Orange</text>
+<line x1="390" y1="602" x2="390" y2="628" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<rect x="20" y="632" width="740" height="40" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="632" width="7" height="40" rx="3" fill="#1baf7a"/>
+<text x="37" y="652" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">AUC 0,502 a 0,548 na versão correta, 0,871 a 0,965 com vazamento</text>
+<text x="20" y="696" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Em todas as etapas: RDT (15 fichas) · 137 asserções registradas · números rastreáveis · Git com a equipe</text>
+<rect x="20" y="712" width="12" height="12" rx="3" fill="#898781"/>
+<text x="38" y="722" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Semana 1</text>
+<rect x="130" y="712" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="148" y="722" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Semana 2</text>
+<rect x="240" y="712" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="258" y="722" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Semana 3</text>
+<rect x="350" y="712" width="12" height="12" rx="3" fill="#1baf7a"/>
+<text x="368" y="722" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Semana 4</text>
+</svg>

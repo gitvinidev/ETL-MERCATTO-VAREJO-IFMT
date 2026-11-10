@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" width="780" height="440" role="img" aria-labelledby="t d" font-family="'Noto Sans','DejaVu Sans',system-ui,sans-serif">
+<title id="t">O que liga as fontes</title><desc id="d">Mapa das ligações entre clientes do legado e do e-commerce, SAC, avaliações e pedidos, com a cobertura medida na Semana 1.</desc>
+<defs><marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="780" height="440" fill="#fcfcfb"/>
+<text x="20" y="24" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">O que liga o quê: só o CPF liga pessoas; SAC e avaliações não ligam a pedido</text>
+<rect x="20" y="56" width="190" height="52" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="56" width="7" height="52" rx="3" fill="#898781"/>
+<text x="37" y="76" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Clientes do legado</text>
+<text x="37" y="92" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">47.250 cadastros</text>
+<rect x="570" y="56" width="190" height="52" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="570" y="56" width="7" height="52" rx="3" fill="#898781"/>
+<text x="587" y="76" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Clientes do e-commerce</text>
+<text x="587" y="92" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">85.000 cadastros</text>
+<line x1="212" y1="82" x2="568" y2="82" stroke="#2a78d6" stroke-width="2.5"/>
+<text x="390" y="74" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600">CPF válido</text>
+<text x="390" y="100" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">11.875 de 47.250 do legado (25,13%)</text>
+<text x="390" y="116" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">e-mail e telefone: 0 correspondências</text>
+<rect x="20" y="190" width="190" height="52" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="190" width="7" height="52" rx="3" fill="#898781"/>
+<text x="37" y="210" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">SAC (atendimentos)</text>
+<text x="37" y="226" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">96.140 registros</text>
+<line x1="115" y1="190" x2="115" y2="110" stroke="#2a78d6" stroke-width="2.5"/>
+<text x="125" y="150" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">CPF: 90.155 de 96.140 (93,77%) casam com um cadastro</text>
+<rect x="570" y="190" width="190" height="162" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="570" y="190" width="7" height="162" rx="3" fill="#898781"/>
+<text x="587" y="210" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Pedidos</text>
+<text x="587" y="226" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">410.000 nos dois sistemas</text>
+<line x1="212" y1="216" x2="568" y2="216" stroke="#898781" stroke-width="2"/>
+<rect x="380" y="206" width="20" height="20" rx="10" fill="#fcfcfb" stroke="#898781" stroke-width="1"/>
+<text x="390" y="221" font-size="13" fill="#52514e" text-anchor="middle" font-weight="700">✕</text>
+<text x="390" y="200" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600">SAC → pedido não se sustenta</text>
+<text x="390" y="244" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">o CPF do atendimento é o do dono do pedido</text>
+<text x="390" y="260" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">em 1 de 96.140 casos</text>
+<rect x="20" y="290" width="190" height="64" rx="6" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1"/>
+<rect x="20" y="290" width="7" height="64" rx="3" fill="#898781"/>
+<text x="37" y="310" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Avaliações (NDJSON)</text>
+<text x="37" y="326" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">160.000 objetos</text>
+<text x="37" y="342" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">produto ligado pelo SKU</text>
+<line x1="212" y1="322" x2="568" y2="322" stroke="#898781" stroke-width="2"/>
+<rect x="380" y="312" width="20" height="20" rx="10" fill="#fcfcfb" stroke="#898781" stroke-width="1"/>
+<text x="390" y="327" font-size="13" fill="#52514e" text-anchor="middle" font-weight="700">✕</text>
+<text x="390" y="306" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600">avaliação → pedido não se sustenta</text>
+<text x="390" y="350" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">o produto avaliado está no pedido citado</text>
+<text x="390" y="366" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">em 80 de 160.000 avaliações (0,05%)</text>
+<text x="20" y="400" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">O SKU existe no cadastro de produtos em 160.000 de 160.000: a ligação possível é ao produto.</text>
+<rect x="20" y="418" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="38" y="429" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">liga (evidência no dado)</text>
+<rect x="210" y="418" width="12" height="12" rx="3" fill="#898781"/>
+<text x="228" y="429" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">não se sustenta (✕)</text>
+</svg>

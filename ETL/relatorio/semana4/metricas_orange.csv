@@ -1,0 +1,7 @@
+fluxo,modelo,auc,acuracia,recall,especificidade,acuracia_balanceada
+correta,Naive Bayes,0.547,0.768,0.078,0.962,0.5200
+correta,Logistic Regression,0.548,0.780,0.000,1.000,0.5000
+correta,Tree,0.502,0.707,0.149,0.865,0.5070
+vazamento,Naive Bayes,0.876,0.808,0.622,0.860,0.7410
+vazamento,Logistic Regression,0.871,0.802,0.388,0.919,0.6535
+vazamento,Tree,0.965,0.968,0.923,0.981,0.9520

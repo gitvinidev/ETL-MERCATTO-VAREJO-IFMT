@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 340" width="780" height="340" role="img" aria-labelledby="t d" font-family="'Noto Sans','DejaVu Sans',system-ui,sans-serif">
+<title id="t">Unificação de clientes</title><desc id="d">Barras proporcionais: registros de cadastro do legado e do e-commerce e as pessoas resultantes da unificação.</desc>
+<defs><marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="780" height="340" fill="#fcfcfb"/>
+<text x="20" y="24" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">Unificação de clientes: dos cadastros às pessoas</text>
+<text x="40" y="54" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">132.250 registros de cadastro (um por cliente em cada sistema)</text>
+<rect x="41" y="62" width="248.09451795841213" height="34" rx="4" fill="#2a78d6"/>
+<text x="165.04725897920605" y="84" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">47.250</text>
+<rect x="291.0945179584121" y="62" width="447.90548204158796" height="34" rx="4" fill="#eb6834"/>
+<text x="515.047258979206" y="84" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">85.000</text>
+<line x1="390" y1="106" x2="390" y2="154" stroke="#52514e" stroke-width="1.5" marker-end="url(#seta)"/>
+<text x="402" y="128" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">mesmo CPF (válido ou não) e mesmo nome e UF,</text>
+<text x="402" y="144" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">ou duplicata dentro do legado</text>
+<text x="40" y="172" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">117.396 pessoas</text>
+<rect x="41" y="180" width="169.47221172022685" height="34" rx="4" fill="#2a78d6"/>
+<text x="125.73610586011343" y="202" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">32.396</text>
+<rect x="212.47221172022685" y="180" width="64.71304347826087" height="34" rx="4" fill="#1baf7a"/>
+<text x="244.8287334593573" y="202" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">12.604</text>
+<rect x="279.1852551984877" y="180" width="381.1924385633271" height="34" rx="4" fill="#eb6834"/>
+<text x="469.78147448015125" y="202" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">72.396</text>
+<rect x="40" y="242" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="58" y="252" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">só no legado</text>
+<rect x="161" y="242" width="12" height="12" rx="3" fill="#1baf7a"/>
+<text x="179" y="252" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">nos dois sistemas</text>
+<rect x="315" y="242" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="333" y="252" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">só no e-commerce</text>
+<text x="40" y="284" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">14.854 registros foram unidos a outra identidade (11,23% dos registros de cadastro).</text>
+<text x="40" y="302" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">10.462 pessoas não têm CPF e não são pareadas.</text>
+<text x="40" y="320" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Não há verdade externa para conferir as uniões: a regra é prudente (guarda de nome e UF), não infalível.</text>
+</svg>

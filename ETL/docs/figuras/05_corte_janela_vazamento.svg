@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 370" width="780" height="370" role="img" aria-labelledby="t d" font-family="'Noto Sans','DejaVu Sans',system-ui,sans-serif">
+<title id="t">Corte, janela do alvo e vazamento</title><desc id="d">Linha do tempo de 2023 a 2025 com o corte, a janela de 90 dias do alvo e quais períodos cada versão da tabela usa.</desc>
+<defs><marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="780" height="370" fill="#fcfcfb"/>
+<text x="20" y="24" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">Corte, janela do alvo e onde nasce o vazamento</text>
+<rect x="40" y="50" width="582.9067641681902" height="150" rx="0" fill="#e9f1fb"/>
+<rect x="622.9067641681902" y="50" width="57.58683729433267" height="150" rx="0" fill="#fdeee8"/>
+<rect x="680.4936014625229" y="50" width="59.50639853747714" height="150" rx="0" fill="#f1f0ed"/>
+<line x1="622.9067641681902" y1="44" x2="622.9067641681902" y2="206" stroke="#52514e" stroke-width="1.5"/>
+<line x1="680.4936014625229" y1="44" x2="680.4936014625229" y2="206" stroke="#52514e" stroke-width="1.5"/>
+<text x="48" y="70" font-size="12" fill="#0b0b0b" text-anchor="start" font-weight="600">histórico (2023-01 em diante)</text>
+<text x="48" y="86" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">o que se sabe no dia do corte</text>
+<line x1="680.4936014625229" y1="206" x2="680.4936014625229" y2="236" stroke="#52514e" stroke-width="1"/>
+<text x="616.9067641681902" y="224" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="600">corte · 30/06/2025</text>
+<text x="770" y="250" font-size="12" fill="#0b0b0b" text-anchor="end" font-weight="600">fim do alvo · 28/09/2025</text>
+<text x="651.7001828153566" y="70" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600">alvo</text>
+<text x="651.7001828153566" y="86" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">90 dias</text>
+<text x="710.2468007312614" y="70" font-size="12" fill="#0b0b0b" text-anchor="middle" font-weight="600">depois</text>
+<text x="710.2468007312614" y="86" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">do alvo</text>
+<rect x="40" y="106" width="582.9067641681902" height="14" rx="4" fill="#2a78d6"/>
+<text x="48" y="140" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Versão correta: todo atributo usa só o histórico</text>
+<rect x="40" y="156" width="700" height="14" rx="4" fill="#eb6834"/>
+<text x="48" y="190" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Com vazamento: recência e frequência usam também o alvo e o que vem depois</text>
+<text x="20" y="282" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Efeito: em 43.292 clientes (39,54%) a recência fica negativa, porque o último pedido é posterior ao corte;</text>
+<text x="20" y="300" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">isso acontece em todos os 24.042 positivos. O modelo "vê" a resposta.</text>
+<rect x="20" y="330" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="38" y="340" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">dados permitidos (até o corte)</text>
+<rect x="280" y="330" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="298" y="340" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">dados que não existiriam no momento da predição</text>
+</svg>

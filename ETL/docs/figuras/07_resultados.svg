@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 380" width="780" height="380" role="img" aria-labelledby="t d" font-family="'Noto Sans','DejaVu Sans',system-ui,sans-serif">
+<title id="t">Resultados do experimento</title><desc id="d">Barras agrupadas por modelo mostrando AUC e acurácia balanceada nas versões correta e com vazamento, no Orange.</desc>
+<defs><marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="780" height="380" fill="#fcfcfb"/>
+<text x="20" y="24" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">Resultados no Orange, conjunto de teste: versão correta contra versão com vazamento</text>
+<rect x="20" y="40" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="38" y="50" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Versão correta</text>
+<rect x="170" y="40" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="188" y="50" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Versão com vazamento</text>
+<text x="40" y="76" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">AUC</text>
+<line x1="40" y1="290" x2="370" y2="290" stroke="#c3c2b7" stroke-width="1"/>
+<text x="34" y="294" font-size="11" fill="#898781" text-anchor="end" font-weight="400">0</text>
+<line x1="40" y1="190.0" x2="370" y2="190.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="34" y="194.0" font-size="11" fill="#898781" text-anchor="end" font-weight="400">0,5</text>
+<line x1="40" y1="90" x2="370" y2="90" stroke="#e1e0d9" stroke-width="1"/>
+<text x="34" y="94" font-size="11" fill="#898781" text-anchor="end" font-weight="400">1</text>
+<text x="372" y="186.0" font-size="11" fill="#898781" text-anchor="end" font-weight="400">acaso</text>
+<path d="M72.0,290 V184.6 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#2a78d6"/>
+<text x="94.0" y="175.6" font-size="11" fill="#fcfcfb" text-anchor="end" stroke="#fcfcfb" stroke-width="3">0,547</text>
+<text x="94.0" y="175.6" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="400">0,547</text>
+<path d="M96.0,290 V118.80000000000001 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#eb6834"/>
+<text x="96.0" y="109.80000000000001" font-size="11" fill="#fcfcfb" text-anchor="start" stroke="#fcfcfb" stroke-width="3">0,876</text>
+<text x="96.0" y="109.80000000000001" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="400">0,876</text>
+<text x="95.0" y="308" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">Naive Bayes</text>
+<path d="M182.0,290 V184.39999999999998 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#2a78d6"/>
+<text x="204.0" y="175.39999999999998" font-size="11" fill="#fcfcfb" text-anchor="end" stroke="#fcfcfb" stroke-width="3">0,548</text>
+<text x="204.0" y="175.39999999999998" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="400">0,548</text>
+<path d="M206.0,290 V119.80000000000001 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#eb6834"/>
+<text x="206.0" y="110.80000000000001" font-size="11" fill="#fcfcfb" text-anchor="start" stroke="#fcfcfb" stroke-width="3">0,871</text>
+<text x="206.0" y="110.80000000000001" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="400">0,871</text>
+<text x="205.0" y="308" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">Logistic Regression</text>
+<path d="M292.0,290 V193.6 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#2a78d6"/>
+<text x="314.0" y="184.6" font-size="11" fill="#fcfcfb" text-anchor="end" stroke="#fcfcfb" stroke-width="3">0,502</text>
+<text x="314.0" y="184.6" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="400">0,502</text>
+<path d="M316.0,290 V101.0 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#eb6834"/>
+<text x="316.0" y="92.0" font-size="11" fill="#fcfcfb" text-anchor="start" stroke="#fcfcfb" stroke-width="3">0,965</text>
+<text x="316.0" y="92.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="400">0,965</text>
+<text x="315.0" y="308" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">Tree</text>
+<text x="430" y="76" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Acurácia balanceada</text>
+<line x1="430" y1="290" x2="760" y2="290" stroke="#c3c2b7" stroke-width="1"/>
+<text x="424" y="294" font-size="11" fill="#898781" text-anchor="end" font-weight="400">0</text>
+<line x1="430" y1="190.0" x2="760" y2="190.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="424" y="194.0" font-size="11" fill="#898781" text-anchor="end" font-weight="400">0,5</text>
+<line x1="430" y1="90" x2="760" y2="90" stroke="#e1e0d9" stroke-width="1"/>
+<text x="424" y="94" font-size="11" fill="#898781" text-anchor="end" font-weight="400">1</text>
+<text x="762" y="186.0" font-size="11" fill="#898781" text-anchor="end" font-weight="400">acaso</text>
+<path d="M462.0,290 V190.0 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#2a78d6"/>
+<text x="484.0" y="181.0" font-size="11" fill="#fcfcfb" text-anchor="end" stroke="#fcfcfb" stroke-width="3">0,520</text>
+<text x="484.0" y="181.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="400">0,520</text>
+<path d="M486.0,290 V145.8 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#eb6834"/>
+<text x="486.0" y="136.8" font-size="11" fill="#fcfcfb" text-anchor="start" stroke="#fcfcfb" stroke-width="3">0,741</text>
+<text x="486.0" y="136.8" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="400">0,741</text>
+<text x="485.0" y="308" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">Naive Bayes</text>
+<path d="M572.0,290 V194.0 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#2a78d6"/>
+<text x="594.0" y="185.0" font-size="11" fill="#fcfcfb" text-anchor="end" stroke="#fcfcfb" stroke-width="3">0,500</text>
+<text x="594.0" y="185.0" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="400">0,500</text>
+<path d="M596.0,290 V163.3 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#eb6834"/>
+<text x="596.0" y="154.3" font-size="11" fill="#fcfcfb" text-anchor="start" stroke="#fcfcfb" stroke-width="3">0,6535</text>
+<text x="596.0" y="154.3" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="400">0,6535</text>
+<text x="595.0" y="308" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">Logistic Regression</text>
+<path d="M682.0,290 V192.6 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#2a78d6"/>
+<text x="704.0" y="183.6" font-size="11" fill="#fcfcfb" text-anchor="end" stroke="#fcfcfb" stroke-width="3">0,507</text>
+<text x="704.0" y="183.6" font-size="11" fill="#0b0b0b" text-anchor="end" font-weight="400">0,507</text>
+<path d="M706.0,290 V103.60000000000002 a4,4 0 0 1 4,-4 h14 a4,4 0 0 1 4,4 V290 z" fill="#eb6834"/>
+<text x="706.0" y="94.60000000000002" font-size="11" fill="#fcfcfb" text-anchor="start" stroke="#fcfcfb" stroke-width="3">0,952</text>
+<text x="706.0" y="94.60000000000002" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="400">0,952</text>
+<text x="705.0" y="308" font-size="11" fill="#52514e" text-anchor="middle" font-weight="400">Tree</text>
+<text x="20" y="350" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">Com vazamento a AUC sobe de perto do acaso (0,5) para 0,87 a 0,97. O número alto não mede capacidade de predição:</text>
+<text x="20" y="368" font-size="12" fill="#52514e" text-anchor="start" font-weight="400">dois atributos já contêm informação sobre o alvo. Valores exatos na tabela de resultados da Semana 4.</text>
+</svg>
